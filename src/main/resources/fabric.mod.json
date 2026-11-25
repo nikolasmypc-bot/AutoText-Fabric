@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autotextnrc",
+  "version": "1.0.0",
+  "name": "AutoText NRC",
+  "description": "Optional chat message sender with a 5-second interval.",
+  "authors": ["AutoText"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.nrc.autotext.AutoTextClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
