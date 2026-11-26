@@ -2,7 +2,7 @@
 
 Client-side Fabric mod for NoRiskClient's Minecraft 1.21.11 Fabric profile.
 
-- Press **Numpad +** (the plus key on the numeric keypad) to open the AutoText window.
+- Press the **+ key** (left of Enter on a German keyboard) to open the AutoText window.
 - Enter a message (up to 256 characters).
 - Press **Start** to send it every 15 seconds.
 - Press **Stop** to stop sending.
