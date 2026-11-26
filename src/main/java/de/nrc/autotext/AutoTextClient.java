@@ -10,7 +10,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 
 public final class AutoTextClient implements ClientModInitializer {
-    private static final int SEND_INTERVAL_TICKS = 100; // 5 seconds at 20 TPS
+    private static final int SEND_INTERVAL_TICKS = 300; // 15 seconds at 20 TPS
 
     private static KeyMapping openScreenKey;
     private static String message = "Hallo!";
@@ -26,7 +26,7 @@ public final class AutoTextClient implements ClientModInitializer {
         openScreenKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.autotextnrc.open",
                 InputConstants.Type.KEYSYM,
-                InputConstants.KEY_J,
+                InputConstants.KEY_KP_ADD,
                 category
         ));
 
