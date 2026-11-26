@@ -2,9 +2,9 @@
 
 Client-side Fabric mod for NoRiskClient's Minecraft 1.21.11 Fabric profile.
 
-- Press **J** to open the AutoText window.
+- Press **Numpad +** (the plus key on the numeric keypad) to open the AutoText window.
 - Enter a message (up to 256 characters).
-- Press **Start** to send it every 5 seconds.
+- Press **Start** to send it every 15 seconds.
 - Press **Stop** to stop sending.
 
 Use only where automated chat messages are allowed. The feature is opt-in and stops when you press Stop or leave the game.
