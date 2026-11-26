@@ -3,7 +3,7 @@
   "id": "autotextnrc",
   "version": "1.0.0",
   "name": "AutoText NRC",
-  "description": "Optional chat message sender with a 5-second interval.",
+  "description": "Optional chat message sender with a 15-second interval.",
   "authors": ["AutoText"],
   "environment": "client",
   "entrypoints": {
