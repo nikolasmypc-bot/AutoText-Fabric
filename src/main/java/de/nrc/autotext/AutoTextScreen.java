@@ -46,7 +46,7 @@ public final class AutoTextScreen extends Screen {
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float delta) {
         graphics.fill(0, 0, this.width, this.height, 0xC0101010);
-        graphics.drawCenteredString(this.font, "AutoText NRC – alle 5 Sekunden",
+        graphics.drawCenteredString(this.font, "AutoText NRC – alle 15 Sekunden",
                 this.width / 2, 42, 0xFFFFFF);
         graphics.drawCenteredString(this.font, AutoTextClient.getStatusText(),
                 this.width / 2, 180, 0xFFFFFF);
