@@ -26,7 +26,7 @@ public final class AutoTextClient implements ClientModInitializer {
         openScreenKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.autotextnrc.open",
                 InputConstants.Type.KEYSYM,
-                InputConstants.KEY_RIGHT_BRACKET,
+                InputConstants.Type.KEYSYM.getOrCreate(93),
                 category
         ));
 
